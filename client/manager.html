@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Edit Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="back-to-menu">Back to Menu</button>
+    <h1>Manager Edit Menu</h1>
+    <div id="menu-container">
+    </div>
+    <div id="add-item-container">
+        <h2>Add/Edit Menu Item</h2>
+        <form id="item-form">
+            <label for="item-name">Name:</label>
+            <input type="text" id="item-name" required><br>
+            <label for="item-price">Price:</label>
+            <input type="number" id="item-price" required><br>
+            <label for="item-description">Description:</label>
+            <textarea id="item-description"></textarea><br>
+            <label for="item-category">Category:</label>
+            <input type="text" id="item-category"><br>
+            <label for="item-image">Image URL:</label>
+            <input type="text" id="item-image"><br>
+             <input type="hidden" id="item-id" >
+            <button type="submit">Add/Edit Item</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
